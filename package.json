@@ -1,4 +1,17 @@
 {
-  "name": "langsmith-jest-demo",
-  "packageManager": "yarn@4.3.1"
+  "name": "langsmith-vitest-demo",
+  "packageManager": "yarn@4.3.1",
+  "scripts": {
+    "eval": "vitest --config vitest_evals.config.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.30",
+    "@langchain/langgraph": "^0.2.40",
+    "dotenv": "^16.4.7",
+    "langsmith": "0.2.16-rc.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "vitest": "^2.1.8"
+  }
 }

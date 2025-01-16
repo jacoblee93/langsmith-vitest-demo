@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": { "randomize": true },
+    "expected": {
+      "post": "This is a random social media post!"
+    }
+  },
+  {
+    "inputs": { "randomize": true },
+    "expected": {
+      "post": "This is some other random social media post!"
+    }
+  },
+  {
+    "inputs": { "randomize": true },
+    "expected": {
+      "post": "This is a third random social media post!"
+    }
+  }
+]
